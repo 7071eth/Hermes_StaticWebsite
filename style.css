@@ -1,0 +1,672 @@
+@import url(//db.onlinewebfonts.com/c/daf8c1a0f06e7a24d9dca48b9d88dac0?family=OratorW01-Medium);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url(//db.onlinewebfonts.com/c/69b1de69cd6d7ab6309c85af7ee4ec2b?family=NeueHelveticaW01-39CmThin);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f1eb;
+}
+header{
+    width: 100%;
+    height: 10rem;
+    background-color: #f6f1eb;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(105, 105, 105);
+    font-size: 0.65rem;
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    background-color: #f6f1eb;
+    width: 100%;
+    height: 25%;
+    float: right;
+}
+.h1 ul{
+    background-color: #f6f1eb;
+    display: flex;
+    float: right;
+    width: fit-content;
+    margin-top: 1rem;
+    margin-right: 5.6rem;
+
+}
+.h1 ul li{
+    margin-right: 1.7rem;
+    font-weight: 600;
+}
+.h2{
+    background-color: #f6f1eb;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    
+}
+
+.h2c1{
+    background-color: #f6f1eb;
+    width: 25%;
+    height: 100%;
+    padding-left: 5.5rem;
+    padding-top: 1rem;
+    display: flex;
+    
+
+    
+    
+}
+.h2menu{
+    background-color: #f6f1eb;
+    display: flex;
+    width:6rem ;
+    height:2rem;
+    margin-top: 0.4rem;
+}
+.h2menu p{
+    font-size: 12px;
+    
+    margin-bottom: auto;
+    margin-top: 0.4rem;
+    font-weight: 800;
+    margin-left: 1.2rem;
+}
+.h2menu i{
+    background-color: #f6f1eb;
+    transform: scale(1.8);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.29rem;
+}
+
+.h2search{
+    width:8.8rem;
+    height: 2.5rem;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    margin-left: 2.6rem;;
+}
+.h2search input{
+    background: none;
+    outline: none;
+    border: none;
+    margin-left: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+}
+.h2search i{
+margin: auto;
+margin-left: 1rem;
+transform: rotateX(180deg) scale(-1.8);
+}
+.h2c2{
+    width: 5.5rem;
+    height: 3rem;
+    
+    margin-left: 20.5rem;
+    margin-top: 0.8rem;
+}
+.h2c3{
+    width: 20rem;
+    height: 100%;
+    margin-left: 23rem;
+}
+.h2c3icons{
+    width: 14rem;
+    height: 40%;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+    display: flex;
+}
+
+.accicon{
+    
+    display: flex;
+    width: 7rem;
+    height: 100%;
+}
+.accicon svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.55rem;
+}
+.accicon p{
+    margin-top: 0.65rem;
+    font-size: 0.85rem;
+    margin-left: 0.7rem;
+    font-weight: 600;
+}
+
+.carticon{
+    
+    display: flex;
+    width: 5rem;
+    height: 100%;
+    margin-left: 0.8rem;;
+}
+.carticon svg{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0.55rem;
+}
+.carticon p{
+    margin-top: 0.65rem;
+    font-size: 0.85rem;
+    margin-left: 0.7rem;
+    font-weight: 600;
+}
+.header2{
+    width: 100%;
+    height: 20rem;
+    background-color: #f6f1eb;
+    padding-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    
+    text-align: center;
+    font-size: 2.19rem;
+    font-family: "OratorW01-Medium";
+    font-weight: bold;
+    
+
+}
+.header2 p{
+
+    text-align: center;
+    color: #444444;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.42rem;
+}
+.header2 a{
+    text-align: center;
+    color: #444444;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1rem;
+}
+
+.body1 {
+    width: 100%;
+    height: 780px;
+    background-color: #f6f1eb;
+}
+.video1{
+    width: 1183px;
+    height: 670px;
+    background-color: #f6f1eb;
+    margin-left: 150px;
+}
+.video1 video{
+    width: 1183px;
+    height: 660px;
+
+
+    
+}
+
+.container1{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-row-gap: 1rem;
+    height: 670px;
+    width: 100%;
+    background-color: #f6f1eb;
+    padding-left: 10%;
+    padding-right: 7%;
+    padding-top: 3%;
+    font-family: "OratorW01-Medium";
+}
+
+.c1img{
+        width:85%;
+        height: 270px; 
+        background-color: #f6f1eb;
+        
+}
+.c1img p{
+    margin-top: 9px;
+    width: 180px;
+    
+}
+.c1img img{
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+    
+}
+.body3{
+width: 100%;
+height: 790px;
+background-color: #f6f1eb;
+
+}
+.b3box1{
+    width: 80%;
+    margin-left: 10%;
+    height: 790px;
+    background-color: #fffcf7;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    font-family: "OratorW01-Medium";
+    
+    
+}
+.b3textbox{
+    width: 80%;
+    height: 225px;
+    background-color: #fffcf7;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+.b3textbox h4{
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+.b3textbox p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.42rem;
+    
+}
+
+.b3textbox a{
+    text-align: center;
+    text-underline-offset: 7px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.42rem;
+    
+}
+
+.b3imgboxog{
+    width: 783px;
+    height: 440px;
+    align-self: center;
+    background-color: #f6f1eb;
+    
+}
+.b3imgboxog img{
+    width: 100%;
+    
+}
+.b3imgbox{
+    width: 783px;
+    height: 440px;
+    align-self: center;
+    background-color: aliceblue;
+    
+}
+.b3imgbox img{
+    width: 100%;
+    
+}
+
+.body4{
+    width: 1483px;
+    height: 922px;
+    background-color: #f6f1eb;
+    display: flex;
+    flex-direction: column;
+}
+.b4textbox{
+    background-color: #f6f1eb;
+    height: 270px;
+    width:100%;
+
+}
+.b4textbox h4{
+    font-weight: 300;
+    font-size: 2.2rem;
+    margin-top: 60px;
+}
+.b4textbox p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.42rem;
+    
+}
+.b4textbox a{
+    text-align: center;
+    text-underline-offset: 7px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.42rem;
+    
+}
+.b3imgbox{
+    width: 1183px;
+    height: 600px;
+    background-color: #f6f1eb;
+    display: flex;
+}
+.b4video{
+    width: 535px;
+    height: 89.5%;
+    background-color: azure;
+}
+.b4video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.b4video img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.b4images{
+    display: flex;
+}
+.b4imagescol1{
+        width: 213px;
+        height: 89.5%;
+        background-color: #f6f1eb;
+        margin-left: 7rem;
+}
+
+
+.b4imagescol1 h5{
+
+    font-family: "OratorW01-Medium";
+    font-weight: 1;
+    font-size: 18px;
+    background-color: #f6f1eb;
+    margin-top: 1.2rem;
+
+}
+.b4imagescol1 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px ;
+    padding-top: 5px;
+    padding-bottom: 3rem;
+    
+}
+.b4imagescol2{
+    width: 213px;
+    height: 89.5%;
+    background-color: #f6f1eb;
+    margin-left: 7rem;
+}
+
+
+.b4imagescol2 h5{
+
+font-family: "OratorW01-Medium";
+font-weight: 1;
+font-size: 18px;
+background-color: #f6f1eb;
+margin-top: 1.2rem;
+
+}
+.b4imagescol2 p{
+font-family: 'Courier New', Courier, monospace;
+font-size: 13px ;
+padding-top: 5px;
+padding-bottom: 3rem;
+
+}
+.body5{
+    width: 100%;
+    height: 790px;
+    background-color: #f6f1eb;
+    
+    }
+    .b5box1{
+        width: 80%;
+        margin-left: 10%;
+        height: 840px;
+        background-color: #fffcf7;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        font-family: "OratorW01-Medium";
+        
+        
+    }
+    .b5textbox{
+        width: 80%;
+        height: 225px;
+        background-color: #fffcf7;
+        padding-top: 20px;
+        margin-left: 10%;
+        margin-top: 70px;
+    }
+    .b5textbox h4{
+        font-weight: 300;
+        font-size: 1.8rem;
+    }
+    .b5textbox p{
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 21px;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1.42rem;
+        
+    }
+    
+    .b5textbox a{
+        text-align: center;
+        text-underline-offset: 7px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1.42rem;
+        
+    }
+    
+    .b5imgbox{
+        width: 783px;
+        height: 440px;
+        align-self: center;
+        background-color: aliceblue;
+        
+    }
+    .b5imgbox video{
+        width: 100%;
+        
+    }
+    .body2 h4{
+        background-color: #f6f1eb;
+    }
+    .b6textbox{
+        width: 80%;
+        height: 290px;
+        background-color: #fffcf7;
+        padding-top: 20px;
+        margin-left: 10%;
+        margin-top: 70px;
+    }
+    .body{
+       
+        
+    }
+    .b6textbox h4{
+        font-weight: 300;
+        font-size: 1.9rem;
+    }
+    .b6textbox p{
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 21px;
+        margin-left: 11rem;
+        margin-right: 11rem;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1.42rem;
+        
+    }
+    
+    .b6textbox a{
+        text-align: center;
+        text-underline-offset: 7px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1.42rem;
+        
+    }
+    .f1{
+        width: 82%;
+        height: 268px;
+        background-color: white;
+        padding-left: 8rem;
+        display: flex;
+        margin-left: 9%;
+        margin-top: 7rem;
+        border-bottom: 1px solid black;
+    }
+    
+    .f1col1{
+        width: 30%;
+        height: 100%;
+        margin-top: 3rem;
+        
+    }
+    .f1col2{
+        width: 30%;
+        height: 100%;
+        margin-top: 3rem;
+        margin-left: 27%;
+    }
+   .f2{
+       width: 100%;
+       height: 140px;
+       background-color: white;
+       
+   }
+   .f2col{
+       width: 30%;
+       height: 100%;
+       
+       margin-left: 35%;
+   }
+   .f2col h5{
+    font-family: "OratorW01-Medium";
+    text-align: center;
+    font-size:20px ;
+    font-weight: 500;
+    margin-top: 2rem;
+
+   }
+   .f2col p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+   }
+   .f1 h5{
+       font-size: 20px;
+       font-family: "OratorW01-Medium";
+       text-align: center;
+       font-weight: 500;
+   }
+   .f1 p{
+       margin-top: 0.8rem;
+       text-align: center;
+        font-size: 13px;
+        font-family: 'Noto Sans', sans-serif;
+
+   }
+  
+.f2col button{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    width: 17rem;
+    height: 2.9rem;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #444444;
+    color: white;
+
+    
+}
+.f3{
+    display: flex;
+    text-decoration: none;
+    width: 84%;
+    margin-left: 8%;
+    height: 20rem;
+    background-color: white;
+    line-height: 2.2rem;
+    margin-top: 1.2rem;
+
+}
+
+.f3 h5{
+    font-family: "OratorW01-Medium";
+    font-size: 17px;
+    font-weight: 200;
+}
+.f3 li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+.col1{
+
+}
+.col2{
+        padding-left: 6rem;
+}
+.col3{
+    padding-left: 11rem;
+}
+.col4{
+    padding-left: 9rem;
+}
+.f4{
+    width: 84%;
+    height: 2rem;
+    margin-left: 7.4rem;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    background-color: white;
+}
+.copyright{
+    margin-top: .4em;
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+.copyright a{
+    color: black;
+    margin-right: 22px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+
+}
+.f4 p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.cicons{
+    margin-left: 53rem;
+    transform: scale(1.7);
+    margin-top: .5em;
+}
+.logoend{
+    width: 100%;
+    height: 15rem;
+}
+.logoend img{
+    margin-top: 5.6rem;
+    margin-left: 48%;
+    transform: scale(1.2);
+    
+
+}
+
+.footer {
+    background-color:#ffffff ;
+    
+}
